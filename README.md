@@ -22,6 +22,8 @@ If you can help, please star and fork it. I'll do the  rest in a lil bit.
 
 Thanks to all!
 
-*Bryan AKA @fxspec06 known as *fx_b* *on twitter*
+*Bryan AKA @fxspec06 on twitter, otherwise known as *fx_b* *on IRC*
 
-Follow @Neo_webOS and @Neo_BB10 for details
+Follow @Neo_webOS and @Neo_BB10 for details.
+
+Join the official Neo_webOS channel on IRC for password WEBOS. I'll try to remove the password later. Stuck here now.
