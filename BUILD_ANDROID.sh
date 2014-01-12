@@ -30,7 +30,7 @@ if [ !$DEPLOY_PATH ]; then
 
 #DROPBOX_URL is the final URL to visit containing your newly minified application
 if [ !$DROPBOX_URL ]; then
-	DROPBOX_URL="https://dl.dropboxusercontent.com/u/40574271/Neo"; fi
+	DROPBOX_URL="https://dl.dropboxusercontent.com/u/XXXXXXXXXXXX/Neo"; fi
 
 clear
 echo "> BUILD=$BUILD NEW=$NEW LOCATION=$LOCATION"
