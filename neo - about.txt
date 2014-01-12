@@ -1,0 +1,54 @@
+Hello Eric,
+
+Attached is a .zip of the Neo source code. From this moment forward I hereby give thee Eric Blade and any other member or members of the webOS Ports Project or the webOS Open Source project full permission to use any or all of the code for the purpose of webOS ports or webOS Open Source. Use outside of these boundaries is strictly prohibited without additional consent. This email should serve as a basic agreement; if you disagree just reply and we can discuss.
+
+Basically just keep it between you guys por favor =)
+
+
+
+
+If you guys have any questions about anything you can email me directly bshado@charter.net, fxspec06@gmail.com, or txt (vzw) 774-272-0410 and I can answer fairly quickly. Or twitter.
+
+There's a changelog, readme, and a (pretty messy, and outdated, but informational) todo file
+
+The app starts with Neo.js and branches outwards
+
+The Neo source is divided into two parts: Functional files and themable files
+
+Most of the *Neo* source (ie non-libs) is inside the /source/javascript/ folder
+
+All *THEMABLE* elements, AND one or two other non-theme-specific-but-related files are inside the /source/themes/* folder
+
+
+The juicy stuff:
+* Container.js -- basically the entire right side of the app... also the file that HANDLES everything that goes on in the right side. consequently, somewhat large. inside here is a "boxes" subsystem that is mostly undocumented.. it pretty much handles saving / caching of data when the panels are transitioning. there could be some nasty things happening, but i am 98% sure there's a 40% chance i cleaned it up decent
+* Sidebar.js -- the left side of the app.
+* BackgroundColumn.js -- built myself -- basic "twitter column" have you.. capable of running STANDALONE IN THE BACKGROUND (woooooooohoooooooooooooooo i am goooooooooooooood)
+* Column.js -- the physical column. with special special column functions
+note: columns are continuously swapped in panels. this is because large lists that are rendered off the screen are PITIFUL performance wise (on poor hardware) (my lists, anyways... too many nested elements / classes). so when moving from timeline to mentions, a list is removed and then added... i forget if the panel destroys or hides, but it is definitely a huge performance hog
+also note: Themes is *very* OOP -- there is a ton of inheritance, something is happening somewhere but idk: too much rendering, or reflowing, or calling of something. If you are seeing crashes it could be related to a line in a themeable element that I had to write to work around positioning issues to make it look nice (at the cost of performance).
+third note: Neo has a ton of nodes. i feel bad but, it looks good
+
+*Themes - Themes is a killer performance hog. I haven't begun to tackle performance, but I am almost positive with some creativity I built the themes so it should be simple to turn a lot of the stuff happening in the BG off temporarily
+
+right now, i haven't figured a surefire way to turn them off ie stop from hogging, but if you are tired of the themes and want stock onyx / stock mycss, put a return at 285 in ThemeFile.js
+
+*ThemeFile.js - manages theming of themeable objects. list of objects that are themeable:
+elements: ['tweet','toolbar','subtext','richText','spinner','sidebar','button'],
+
+The rest of the files in themes are somewhat self explanatory or relatively (should be) safe
+
+aside from these main files, not counting libraries and spazcore, there are folders in /javascript/* that came from SpazHD source. i am pretty sure i stopped loading unneccessary things but it's possible there's some overhead
+
+Accounts is a bloody mess. It was wrritten piss-ass from whomever did it, i put a baindaid but it's still bloody. Awful way of swapping things, but meh I will redo it eventually. AccountsPopup.js >> account creation causes a chain reaction sort of ... calls oauth then once passes requests a secret token to save...... but from what you are telling me in IRC the callback IS happening now, but it's failing afterwards ........
+
+I'd like to know if the token is being saved or not. If you are getting a callback and it's saving, then it's possible that the app is breaking somewhere on first account creation, which it may do some things it doesn't normally do. I think there's one or two functions in Neo.js / Container.js that handle account creation
+
+
+Anyways I hope this is enough info to get started. It's a lot of source, hopefully you can narrow the problem easier.
+
+Good luck!
+
+
+- Bryan Leasot
+aka fx

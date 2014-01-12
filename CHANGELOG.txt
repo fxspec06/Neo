@@ -1,0 +1,289 @@
+//						//
+//						// 
+//		N	E	O		// Created by: Jake Morrison, Bryan Leasot
+//						//
+//						// for a list of things to do, see TODO.js
+//						//
+//						// date
+//						// version
+//////////////////////////
+
+
+//////////////////////////
+// try to keep this updated
+//	put a date and a list of stuff you've done
+//	at the top of this file after a coding session
+//	i really don't care about format. just trying to keep it neat
+
+
+//////////////////////////
+//						// 
+//						// version 0.x.x
+// 
+//
+// 
+//  
+
+//////////////////////////
+//						// 1.3.13
+//						// version 0.5.3
+//						// app catalog submission
+// 
+// - Fixed twitter search URL
+// - Fixed large tweet bug
+// - Added anchors for lists
+// - Fixed lack of notifications
+// - Fixed horrible retweet bug
+// - Fixed avatar bug from 0.5.1
+// - Fixed infamous 'black screen glitch'
+// 
+//  
+
+//////////////////////////
+//						// 12.27.12
+//						// version 0.5.2 *beta
+// 
+// - Added ability to tap a selected sidebar to select it again (temp fix to help deal with "black screen glitch")
+// - Fixed glitch from unreleased 0.5.1 with icons
+// - Added more icons
+// - Separated themes from basic and advanced
+// - Added 6 new Toolbar themes to select
+// - Added changelog to about section
+// - Added placeholder help button to Themes
+// - Added placeholder basic button to Themes
+// - Changed Themes behavior, added functionality
+//  
+
+//////////////////////////
+//						// 12.21.12
+//						// version 0.5.1
+// app catalog update #1
+// app catalog BUMP to top
+// 
+// CHANGES:
+// - Added setting for hiding of minimize graphics
+// - Fixed button tap issues
+// - Fixed icon not displaying issues (icons not yet decided now appear with 'bug' icon)
+// - Minor optimization
+//  
+
+//////////////////////////
+//						// 
+//						// version 0.5.0
+// OFFICIAL APP CATALOG RELEASE
+// Here is 0.5.0.
+// I think I may release this or similar for TP only tomorrow just to get it out the door. My time to work on Neo has become unexpectedly limited lately and I don’t think I’ll be able to continue working at the pace I was earlier. However, this is still working pretty darned well and so I think for $2.99 people will be getting their fair share.
+// New icons all around, the icon colors match (for the most part) to your text color as closely as possible from the 8 or so colors that are available. You will see what I’m talking about when you load it up.
+// Yes there are some bugs but what software releases without bugs.
+// The overall experience has improved to the point where I feel I am screwing myself by not releasing any more.
+// LMK what you all think.
+// 
+//  
+
+
+
+//////////////////////////
+//						// 9.14.12
+//						// version 0.3.3
+// 
+// Fixes in 0.3.3:
+// -Fresh install account add fixed
+// -Fast account switching, back to pre-0.2
+// -App font size and tweet font size removed from settings
+// -Popup list theme width no longer affects PickerButton
+// -Theme saving no longer deletes ALL Neo localstorage
+// 	i.e. you can actually USE the new theming system
+// -Themes section stability improvements
+// -Autocomplete *beta (yes, this is somewhat buggy, you may get annoyed, but it does work somewhat well)
+// 
+// Autocomplete fetches a user sample on app start, and also fetches users from mentions, DM’s, favorites, and retweets. If a user is not available for autocomplete, -- I’m working on a more proper solution for this.
+// Autocomplete also limits to first five selections. You can either tap on a name to autocomplete, or hit the spacebar if your wanted name is highlighted
+// 
+// 
+// 
+
+
+
+//////////////////////////
+//						// 9.10.12
+//						// version 0.3.2
+// Fixes:
+// -App start, now loads timeline and refreshes properly
+// -As a result, the auto refresher starts properly
+// -Filters now working again
+// -Added filters persist toggle, you’re welcome
+// -User view followers/following working again
+// -Bug where closing columns would totally make life a living hell is fixed
+// -Smaller bugs fixed
+// -Themes semi-optimized
+// -Themes bug where you can’t scroll fixed
+// -Themes bug where you don’t get all the theme options fixed
+// -Themes bug where you’d see options that shouldn’t exist fixed
+// -Themes bug where you can’t load a theme fixed
+// -Themes bug where you certain elements require a reboot on load fixed
+// -Themes bug where your custom slot is broken sometimes fixed
+// -Themes bug where you can’t preview the “highlight” fixed
+// -Sidebar collapse scroller fixed
+// -Other areas where allowed to scroll sideways fixed
+// -Bug where app wouldn’t cache some data on exit fixed
+//
+// 
+//  
+
+//////////////////////////
+//						// 9.8.12
+//						// version 0.3.1
+// However, 0.3.1 introduces the brand new theming system.
+// 
+// For each themeable component, and there are a few of them, you can choose from presets (some only have 1 for now) to load and customize them all. There are TONS of features in there. Borders, text size, border size, colors for everything, padding, margins, letter spacing.. even the border corner radius. Text box theming is coming soon, and if you see anything else that deserves to be themed don’t be afraid to let me know. It’s really not hard to add an element now.
+// 
+// Not ALL of the settings are working. For some reason font weight isn’t working, and opacity // BG pattern is not in yet.
+// 
+// You can’t save a theme with the same name as a preset – but the app detects that and marks the input box as ‘red’ if you choose one. The input is ‘green’ if it’s a new theme name for that item type, and ‘purple’ if that name exists already. You CAN overwrite your old theme, so be careful. Also, when customizing – if your theme name is the same as a theme that exists, you have the option to delete that theme. You will lose that theme’s customization forever! This will probably be in a help part somewhere.
+// 
+// Toolbar theming requires app restart – but this happens automatically.
+// 
+// // In addition to your save slots, you can choose NOT to save as well. The app always has a “custom” slot, which refers to your current theme.
+// 
+// There are a few bugs here and there but for the most part it works great in my experience. You have 140 something colours to choose from, plus RGB sliders for everything.
+// 
+// I want to be able to share themes at some point, at the very least the ability to copy them so you can email them to me so I can put them in presets for the app! The more presets the better IMO ;)
+// 
+// Text-transform does nothing right now. I don’t have the energy to code it.
+// 
+// 
+// 
+//  
+
+//////////////////////////
+//						// 9.6.12
+//						// version 0.2.5 / 0.2.6
+// 
+// Performance is improved massively on phones, to the point where it’s useable. Font is still a bit small on pre 3 but future customize screen will fix all font issues
+// 
+// Pre 3 bottom black bar is gone. Veer may or may not work related to this.
+// 
+// No more app hanging – those days are behind us! *celebrate
+// 
+// Toolbar theming support – you have to refresh your account or restart the app, because the manage button goes all wonky. Toolbar colours, font colours, and font size is all included and working.
+// 
+// Sidebar selection is now working! More of the theme stuff works. Also new is letter spacing.
+// 
+// There IS a new GUI for the theme page coming, and it’s going to be nice.
+// 
+// Also new: borders on tweets and sidebars. Cleaned a LOT of bad CSS code, stripped it to barebones.
+// 
+// Tweet themes: official now shows time in right hand corner, and condensed is now officialCondensed. The colours are still ugly but it shrinks the retweet bar to little and looks nice.
+// 
+// Gone are retweet avatars and the retweet icon – it’s now the retweet bar.
+// 
+// In the future tweets will be abel to have top and bottom borders of any colour. Usernames and real names will also be themeable. Fonts will be able to be uppercase, lowercase, strike, underline, and italic (but this is not supported on the TP =( ).
+// 
+// New: app recognizes where you last were. This used to be VERY annoying. Now it’s not.
+// 
+// New: everything is faster. (I think I said that)
+// 
+//  
+
+//////////////////////////
+//						// 9.4 630p
+//						// version 0.2.4
+// 
+// TREMENDOUS speed improvements!
+// Still a bug / leak somewhere. but WAY better!
+// brings most everything back to pre 0.2 status
+// except for a few things: 
+// Known things not working that were working before 0.2:
+// filters, app launch showing timeline, timeline notifications are displaying as “mentions”,
+// and tap on avatar brings directly to user
+// 
+// ** last beta before 0.3
+//  
+
+//////////////////////////
+//						// 9.3 730p
+//						// version 0.2.2
+// 
+// added ability to customize themes directly inline
+// very very bad for now, but very very powerful for LATER
+//  
+
+//////////////////////////
+//						// 9.3 1033a
+//						// version 0.2.1
+// minor improvements
+// minor stability improvement
+// not stable..
+//  
+
+//////////////////////////
+//						// 9.2.12 9:22p
+//						// version 0.2.0
+// added themes
+// fixed numerous performance issues
+// added tweet themes
+// added pin to left (*working!)
+// a lot slower
+
+
+//////////////////////////
+//						// 9.2.12 9:22p
+//						// version 0.1.0
+// initial beta
+
+
+//////////////////////////
+//						// 8.11.12 bl 2:37a
+//
+// too much to write. basically got everything swapped, in process of making functional again
+//	GUI half works, mostly everything is broken .... but it all mostly works. needs time
+//
+// got sidebar to show, got columns to show but not to show tweets themselves
+//
+// started work on popups A K A settings popup, and numerous other popups
+//
+// tired as hell
+
+
+//////////////////////////
+//						// 8.10.12 bl 3a
+//
+// backed up original spaz, + original spaz 2.0 "bootplate" folder
+//
+// moved favicon.ico to source folder
+//
+// copied spaz source folder to spaz 2.0 app folder
+//	app has: 1 css file, 1 javascript folder
+//	javascript folder has tons of code, folders, and files
+//	all of these are custom written
+//
+// copied spaz vendors folder to spaz 2.0 folder
+//	these are all external open sourced files
+//	these files require licenses to be displayed in the source, which is why they're kept HERE and not elsewhere
+//
+// split spaz 1 depends.js into multiple package.js's
+//
+// got rid of tons of initial run errors
+//
+// eliminated 99% of the first run errors
+//	got rid of all those nasty enyo._L$("etc") crap
+//	also got rid of more $L crap. came from enyo 1 i think
+//
+// added getappinfo.js folder
+//	script  loads the appinfo.json using jquery into enyo.fetchAppInfo() (sneaky, i know)
+//
+// changed potential name from Spaz 2.0 to Diamonds
+//
+// added TODO.js and CHANGELOG.txt
+//
+// backed up 
+//
+// downloaded latest enyo
+//	updated bootplate, got working
+//	fixed debug and index.html
+//
+// started modifying enyo 1 components to enyo 2 components
+//	**USE FILE FIND AND REPLACE
+//	swapped fittables with vflex's
+//	swapped basicscrollers with scrollers
+//	got tired

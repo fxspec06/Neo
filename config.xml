@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+xmlns:rim="http://www.blackberry.com/ns/widgets"
+version="0.6.2.10" rim:header="Neo: Twitter for BlackBerry" id="Neo">
+	<name>Neo</name>
+	<description>The best twitter client for your favorite OS!</description>
+	<author href="http://www.twitter.com/neo_webos" rim:copyright="Copyright 2013 fxspec06">Bryan Leasot</author>
+	<authorId>gYAAgKZPH4Kcm5GhYLhMlDC6oIM</authorId>
+	<actual_id>0.6.1</actual_id>
+	<actual_version>0.6.1</actual_version>
+	<actual_dname>com.fxspec.neo</actual_dname>
+	<access uri="*" subdomains="true" />
+    <access uri="http://twitter.com" subdomains="true" />
+    <access uri="https://twitter.com" subdomains="true" />
+	<feature id="blackberry.invoke" required="true" version="1.0.0" />
+	<feature id="blackberry.invoke.BrowserArguments" required="true" version="1.0.0" />
+    <feature id="blackberry.invoke.MessageArguments" required="true" version="1.0.0" />
+    <feature id="blackberry.io.filetransfer" />
+    <rim:permit>post_notification</rim:permit>
+	<icon src="icon_86.png" />
+	<rim:loadingScreen backgroundImage="bbsplash.png" />
+	<rim:background backgroundImage="bbsplash.png" />
+	<content src="index.html" />
+	<rim:orientation mode="auto" />
+
+</widget>
