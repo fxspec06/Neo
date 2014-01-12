@@ -1,0 +1,3 @@
+[submodule "assets/includes/dropzone"]
+	path = assets/includes/dropzone
+	url = https://github.com/enyo/dropzone.git
