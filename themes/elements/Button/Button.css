@@ -1,0 +1,38 @@
+.onyx-blue.avatar, .onyx-negative.avatar {
+	height: 60px;
+	width: auto;
+	margin-top: 0px;
+}
+
+.onyx-button-number {
+	display: inline-block;
+	vertical-align: baseline;
+	width: 100%;
+	height: 32px;
+	margin: -6px -6px -10px -6px;
+}
+.onyx-tool-button {
+	padding: 0px;
+}
+.onyx-button-disabled {
+	opacity: 0.4;
+	/*color: rgba(255,254,255,0.4);*/
+}
+
+.neo-button {
+	/*background-color: #000 !important;*/ /* THEME SETTING */
+
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.7);
+	height: 60px !important;
+	border: 1px solid black;
+	margin: 0px;
+	padding-top: -5px;
+	left: 0px;
+}
+
+.neo-button-send {
+	padding-left: 5px;
+	font-weight: 900;
+}

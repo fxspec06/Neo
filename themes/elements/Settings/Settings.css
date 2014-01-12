@@ -1,0 +1,18 @@
+
+.neo-settings {
+	text-align: left;
+}
+
+.neo-settings-header {
+	text-align: center;
+	background-color: grey;
+	width: 100%;
+	font-size: 1.3em;
+	
+}
+
+.neo-settings-setting {
+	text-align: left;
+	border: 1px solid grey;
+	padding: 20px;
+}

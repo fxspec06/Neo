@@ -1,0 +1,10 @@
+.neo-popup-list {
+	overflow: visible;
+	font-size: 100%;
+	padding: 5px;
+	z-index: 1;
+}
+
+.onyx-picker-decorator > button {
+	/*max-width: 200px;*/
+}

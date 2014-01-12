@@ -1,0 +1,30 @@
+/* compose 
+.compose {
+	text-align: center;
+	background-color: white;
+}
+.compose, .onyx-input-decorator, .enyo-input, .onyx-input {
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px auto 0px auto !important;
+	border-radius: 0px !important;
+}
+.compose > * {
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px auto 0px auto !important;
+	border-radius: 0px !important;
+}
+.enyo-richtext, .onyx-richtext {
+}
+.enyo-unselectable ::selection {
+}
+*/
+
+/* compose */
+.compose {
+	text-align: center;
+	width: 100%;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+

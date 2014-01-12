@@ -1,0 +1,50 @@
+.neo-sidebar {
+	background-color: #000; /* theme setting */
+	
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+.neo-sidebar-item {
+	margin: 0px;
+	
+	border-style: solid;
+	border-width: 0 0 0 2px;
+	
+	text-align: left;
+	
+	box-shadow: 0 0 8px rgba(0,0,0,0.7);
+	width: 300px;
+}
+.neo-sidebar > * {
+	/*border: 1px solid #FFF; /* theme setting */
+	
+	
+	
+}
+
+
+
+.selected {
+	background-color: #FFF; /* theme setting */
+	color: #000; /* theme setting */
+}
+
+
+
+.neo-sidebar > .list {
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.neo-sidebar-item-unread {
+	-webkit-border-radius: 12px;
+	padding: 5px;
+	/*letter-spacing: -2px;*/
+	
+}
+
+
+
+

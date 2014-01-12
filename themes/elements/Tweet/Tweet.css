@@ -1,0 +1,207 @@
+.enyo-puller {
+	background-color: #111;
+	border: 3px solid #FFF;
+	border-right-color: #ccc; /* THEME SETTING */
+	border-left-color: #222; /* THEME SETTING */
+	border-width: 3px 3px 0px 3px;
+	
+	border-bottom: none;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	color: #FFF;
+}
+
+/* neo-tweet */
+.neo-tweet {
+	margin: 0px;
+	padding: 0px;
+	cell-spacing: 0px;
+	/*border-right-color: #FFF; /* THEME SETTING */
+	/*border-left-color: #FFF; /* THEME SETTING */
+	
+	border-style: solid;
+}
+.neo-tweet > * {
+	padding: 0px;
+	margin: 0px;
+	
+	
+	text-align: left;
+}
+
+/* tweet class */
+.neo-tweet.normal { background-color: #D8D8D8 }
+.neo-tweet.message { background-color: #e0c7c7 }
+.neo-tweet.mention { background-color: #c3ccd7 }
+.neo-tweet.author { background-color: #c2dbc2 }
+
+/* first and last */
+.neo-tweet-first {
+	border-top-color: #FFF; /* theme setting */
+}
+.neo-tweet-last {
+	border-bottom-color: #FFF; /* theme setting */
+}
+
+/* action-separator */
+.neo-tweet .action-separator {
+	width: 12px;
+}
+
+/* tweetHeaderIcon */
+.neo-tweet .tweetHeaderIcon {
+	position: relative;
+	top: 1px;
+	padding: 0px 3px;
+}
+
+/* small-icon */
+.neo-tweet .small-icon {
+	width: 20px;
+	height: 20px;
+}
+
+/* fullname, username  */
+.neo-tweet-fullname {
+	font-size: 1.1em;
+}
+.neo-tweet-username:before {
+	content: "@";
+}
+.neo-tweet-username {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+/* tweet.read .tweettext */
+.neo-tweet.read {
+	color: #666666;
+}
+.neo-tweet.read .author, .neo-tweet.read .recipient, .neo-tweet.read .tweetHeaderIcon {
+	color: #666666;
+}
+
+/* timestamp */
+.neo-tweet-timestamp {
+	height: 13px;
+	font-size: .7em;
+	letter-spacing:normal;
+	margin-bottom: 2px;
+}
+/*
+ * 
+ * 
+ * 
+ * 
+ * 
+ *
+ * avatars
+ */
+.neo-avatar {
+	position: relative;
+	top: 0;
+	
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.7);
+	
+	margin: 10px;
+	margin-bottom: -10px;
+	
+	width: 60px;
+	height: 60px !important;
+	background-color: white;
+	border: 1px solid black;
+	
+	margin-right: 10px;
+}
+.neo-avatar-retweet {
+	position: absolute;
+	margin-left: -55px;
+	margin-top: 25px;
+}
+.neo-avatar-large {
+	width: 90px;
+	height: 90px !important;
+}
+table th, td {
+    vertical-align: top;
+}
+
+/*
+ * 
+ *
+ *
+ *
+ *
+ *
+ * tweet-view
+ */
+
+.neo-tweet-view .message a[href] {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-block;
+	max-width: 80%;
+}
+
+/*
+ * 
+ */
+.neo-tweet-big, .neo-tweet-bigger {
+	overflow: hidden;
+}
+
+.neo-tweet-big {
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.4em;
+}
+.neo-tweet-bigger {
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.3em;
+}
+.neo-tweet-body {
+	font-size: 1em;
+	overflow: hidden;
+	white-space: normal;
+	word-wrap: normal;
+}
+
+.neo-tweet .neo-tweet-big, .neo-tweet .neo-tweet-bigger {
+	padding: 0px;
+}
+
+/*
+ * 
+ * retweet info
+ */
+.neo-tweet-retweet {
+	text-align: center;
+}
+.neo-tweet-retweet .username {
+	margin: 0 5px 0 5px;
+}
+.neo-tweet-retweet .username:before {
+	content: "@";
+}
+
+.neo-tweet-retweet-condensed {
+	padding: 0px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	width: auto;
+}
+.neo-tweet-retweet-condensed .username {
+	color: pink;
+}

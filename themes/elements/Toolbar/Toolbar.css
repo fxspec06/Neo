@@ -1,0 +1,15 @@
+.neo-toolbar {
+	text-align: center;
+	box-shadow: 0 0px 12px #000;
+	-webkit-border-image: url('../../../assets/images/toolbar.png') 2 4 repeat stretch;
+	-o-border-image: url('../../../assets/images/toolbar.png') 2 4 repeat stretch;
+	-moz-border-image: url('../../../assets/images/toolbar.png') 2 4 repeat stretch;
+}
+
+.neo-toolbar-middle {
+	font-weight: bold;
+	word-wrap: break-word;
+	overflow: hidden;
+	margin: none;
+	text-align: inherit;
+}

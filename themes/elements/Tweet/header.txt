@@ -1,0 +1,27 @@
+Hi all, first post, this isn't for advertising but I came here to get the word out.
+
+If you have an HP Touchpad and have used webOS, you may have heard about us. 
+
+
+Here's a video walkthrough of the webOS Enyo 1 version: [url=http://www.youtube.com/watch?v=NjuunufQFJU]Apollo for webOS, v1.2.0. What's new/App Overview - YouTube[/url]
+
+I'll post a few reviews: 
+[url=http://www.facebook.com/photo.php?fbid=415288815201603&set=a.415288711868280.97417.383910015006150&type=3]August Preview | Facebook[/url] (2 pages)
+
+[url=http://techfanatix.com/webos-app-review-apollo-for-pandora-radio/]webOS App Review: Apollo for Pandora Radio - TechFanatiX[/url]
+
+[url=http://www.webosnation.com/app-review-apollo]App Review: Apollo Radio | webOS Nation[/url]
+
+Here's the original webOS Nation thread for our Enyo 1 version: [url]http://forums.webosnation.com/webos-development/313785-apollo-pandora-radio-app-touchpad.html[/url]
+
+We originally made our app for the HP Touchpad on webOS, but have since rewritten it in Enyo 2, which is an object oriented JavaScript framework. We ported it to Android using Phonegap, and aim to put it in iPad, Playbook, etc. 
+
+There is a phone version of Apollo on the HP Pre 3, but right now our current plans are to stick with developing the tablet version.
+
+Right now, it's done, but our only real problem is that *Phonegap* is really slow on Android, so we're trying to get around it. 
+
+[B]We need some beta testers on Android tablets[/B], including HP Touchpad CM9. We need to know if your device supports HTML5 audio etc. Preferably tablets with Android 4.x+, as supporting 2.3/3.0 isn't really worth it...
+
+For more info/screenshots: [url=http://jmtk.us.to/#applications]JMTK Application Development[/url]
+
+I know all of you are not really fans of the Pandora app, even after the update. We aim to be better.
