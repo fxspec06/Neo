@@ -16,6 +16,7 @@
 //	i really don't care about format. just trying to keep it neat
 
 
+
 //////////////////////////
 //						// 
 //						// version 0.x.x
@@ -23,6 +24,32 @@
 //
 // 
 //  
+
+
+
+
+
+//////////////////////////
+//						// 1.12.14
+//            // version 0.7.0 
+//						// open sourced to github
+// 
+// anyone making edits, make sure you have everything installed for builds to complete
+// i won't approve any changes if it breaks for playbook, chrome, or touchpad
+// this is the first changelog since 0.6.3 release on webos for $X.XX
+//  
+
+
+
+
+
+
+
+
+
+
+
+
 
 //////////////////////////
 //						// 1.3.13
