@@ -23,15 +23,15 @@ echo creating signed bar for testing...
 set JAVA_HOME=C:\Program Files\Java\jre
 
 if [[ $DEBUG == "Y" ]]; then
-bbwp deploy/Neo.zip -d -g hal02fan -o deploy; else
-bbwp deploy/Neo.zip -g hal02fan -o deploy; fi
+bbwp deploy/Neo.zip -d -g STORE_PASSWORD -o deploy; else
+bbwp deploy/Neo.zip -g STORE_PASSWORD -o deploy; fi
 
 if [[ $TARGET == "PB" ]]; then
 echo deploying to playbook...
-blackberry-deploy -installApp -device 192.168.0.198 deploy/Neo.bar -password 00011000
+blackberry-deploy -installApp -device 192.168.0.198 deploy/Neo.bar -password PASSWORDHERE
 fi
 
 if [ $TARGET == "BB10" ]; then
 echo deploying to simulator...
-blackberry-deploy -installApp -device 192.168.184.138 deploy/Neo.bar -password 00011000
+blackberry-deploy -installApp -device 192.168.184.138 deploy/Neo.bar -password PASSWORDHERE
 fi
