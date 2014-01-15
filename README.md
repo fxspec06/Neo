@@ -14,7 +14,7 @@ Update what you can! Any and all help makes your future twitter experience that 
 
 OFFICIAL NEO IS OPEN SOURCED THREAD
 VIA @WEBOSNATION
-http://forums.webosnation.com/webos-apps-games/327103-neo-webos-open-source-code-released.html#post3411570
+http://forums.webosnation.com/webos-apps-games/327103-neo-webos-open-source-code-released.html
 ==========
 
 
