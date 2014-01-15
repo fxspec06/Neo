@@ -11,6 +11,13 @@ View source/TODO.js for live todo debugging and a list of things to fix
 
 Update what you can! Any and all help makes your future twitter experience that much better!
 =======
+
+OFFICIAL NEO IS OPEN SOURCED THREAD
+VIA @WEBOSNATION
+http://forums.webosnation.com/webos-apps-games/327103-neo-webos-open-source-code-released.html#post3411570
+==========
+
+
 So far, I need collaborators because this project has become, how do i put it...
 
 
@@ -18,7 +25,7 @@ So far, I need collaborators because this project has become, how do i put it...
 
 Please do help me. I come in peace.
 
-I'm not trying to lose friends or developer friends over this or hurt feelings. 
+I'm not trying to lose friends or developer friends over this or hurt feelings.
 
 I'm just being honest, open, and willing to advance webOS through my current, past, and future projects.
 
