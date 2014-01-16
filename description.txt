@@ -1,0 +1,31 @@
+Neo was built off the open source Spaz HD. Redistribution in any form is permissible so long as Neo meets certain conditions -- a copy of these conditions is included under the 'license' button in Neo's about section. I've also contacted the Spaz developers and everything has gotten the 'A-Okay.'
+
+I've worked extremely hard on this, and while it has some bugs, I've decided that I cannot hold any longer. I am super excited to release this, it's my greatest work. I can't wait to see it in the catalog and watch people enjoy using it.
+
+It has a few bugs, but nothing that prevents use of the app and nothing that can't be fixed via quick updates.
+
+
+Thank you for taking the time to review this application and I hope to see it in the catalog soon!
+
+Thanks,
+Bryan Leasot
+fxspec06
+
+
+
+
+
+
+
+
+The world's first fully customizable twitter client! 
+
+Neo allows you to customize EVERYTHING. From tweets, toolbars, buttons, colors, font sizes, borders.. anything you see you can change! The level of customization allowed in Neo is UNMATCHED. 
+
+Choose from preset themes (more coming), or build your own, save them, and then build some more. It doesn't matter how you do it, the point is you CAN! And it's all thanks to the power of EnyoJS.
+
+Neo's other features include autocomplete, filters, list viewing, and trends, not to mention collapsing sidebars, auto-coloring icons, and over 10 billion different style combinations meaning everybody's Neo will look completely different. The standard twitter views are all there: retweets, favs, mentions, messages all remain.. and you can view user profiles as well as conversations.
+
+If you're looking for the right twitter client -- look no further! Neo is the perfect match! So buy Neo today and get to customizing!
+
+PS: It's more fun than it looks.

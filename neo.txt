@@ -1,0 +1,9 @@
+***********************************************PRIORITIES debug.html:69
+pre 3 white notifications debug.html:70
+make view license work debug.html:70
+add unread indicator to left sidebar debug.html:70
+create standard neo kickass looking themes. maybe a few of them debug.html:70
+notifications for tweets show as 'mentions' debug.html:70
+app freezes when hitting x on column sometimes debug.html:70
+top toolbar doesn't always show correct column debug.html:70
+***********************************************PRIORITIES 
